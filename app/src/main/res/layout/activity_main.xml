@@ -7,5 +7,23 @@
     android:id="@+id/Relative">
 
 
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:id="@+id/MapLayout"></RelativeLayout>
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/MapLayout"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Obtener Datos "
+            android:id="@+id/getParse"
+            android:onClick="getParse"/>
+    </LinearLayout>
 </RelativeLayout>
